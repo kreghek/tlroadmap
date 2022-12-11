@@ -40,6 +40,10 @@ module.exports = (ctx) => ({
     repo: 'tlbootcamp/tlroadmap',
     docsDir: 'tlroadmap',
     editLinks: true,
+    banner: {
+      text: 'С 7 по 11 ноября пройдет онлайн-конференция для тимлидов Podlodka Teamlead Crew!',
+      link: 'https://podlodka.io/tlcrew?utm_campaign=main_tl_crew_9&utm_source=сайт&utm_medium=social&utm_content=tlroadmap',
+    },
     locales: {
       '/': {
         selectText: 'Русский',
